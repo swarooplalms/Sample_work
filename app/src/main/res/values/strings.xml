@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Groupdeallast</string>
+
+    <string name="Home">Home</string>
+    <string name="MyGorups">My groups</string>
+    <string name="MyCart">My Cart</string>
+    <string name="MyWishlist">My Wishlist</string>
+    <string name="drafts">Drafts</string>
+    <string name="categories">Categories</string>
+    <string name="Mobile">Mobile</string>
+    <string name="Electronics">Electronics</string>
+    <string name="Laptops">Laptops</string>
+    <string name="settings">Settings</string>
+
+    <string name="logout">logout</string>
+    <string name="search">Search</string>
+
+
+
+    <string name="title_mobile">Mobiles</string>
+    <string name="title_mygroup">My Groups</string>
+    <string name="title_home">Home</string>
+    <string name="title_mycart">MyCart</string>
+    <string name="title_wislist">MyWishlist</string>
+    <string name="title_electronics">Electronics</string>
+    <string name="title_Laptop">LapTops</string>
+    <string name="title_activity_viewactivity">Viewactivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_homegroup">Homegroup</string>
+    <string name="title_activity_mywishlis_details">Mywishlis_details</string>
+</resources>

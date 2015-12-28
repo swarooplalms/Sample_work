@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="@mipmap/search"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/search"/>
+    <item
+        android:id="@+id/menu_logout"
+        android:icon="@mipmap/logout"
+        app:showAsAction="ifRoom"
+        android:title="@string/logout"/>
+
+</menu>

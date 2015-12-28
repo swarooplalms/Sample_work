@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="harico.groupdeallast" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name=".appcon.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/myTheme" >
+        <activity
+            android:name=".login.LoginActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".signup.RegisterActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/nLiveoDrawer" >
+        </activity>
+        <activity
+            android:name=".Viewactivity"
+            android:label="Viewactivity "
+            android:theme="@style/AppTheme1.CustomToolbar" >
+            <intent-filter>
+                <action android:name=".Viewactivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.Homegroup"
+            android:label="@string/title_activity_homegroup"
+            android:theme="@style/AppTheme1.CustomToolbar" >
+        </activity>
+        <activity
+            android:name=".activity.Mygroup_details"
+            android:theme="@style/AppTheme1.CustomToolbar" >
+        </activity>
+        <activity
+            android:name=".activity.Mywishlist_details"
+            android:label="@string/title_activity_mywishlis_details"
+            android:theme="@style/AppTheme1.CustomToolbar"
+           >
+        </activity>
+    </application>
+
+</manifest>
